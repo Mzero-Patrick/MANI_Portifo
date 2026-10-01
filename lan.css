@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: lab(96.19% 0.01 -0.01);
+    color: #333;
+    line-height: 1.6;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    color: darkblue;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    height: 80px;   
+    align-items: center;
+    position: sticky;
+
+}
+.header .logo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.header .navbar a{
+    color: darkblue;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+}
+.header .navbar a:hover{
+    background-color: orange;
+    border-radius: 5px;
+    opacity: 0.4;
+}
+.header button{
+    margin-right: 20px;
+    background-color:blue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.header button:hover{
+    background-color: orange;
+}
+.body1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    height: auto;
+    background-size: cover;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+
+}
+.body1 .section1{
+   justify-content: space-between;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+    margin: 80px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    height: 5cm;
+    width: 85%;
+    gap: 5px;
+}
+.body1 .section1 .Pic1{
+    width: 5%;
+    height: 20%;
+    position: relative;
+    top: -100px;
+    right: 300px;
+}
+.body1 .section1 .word1 h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: darkblue;
+    font-weight: bold;
+    padding: 10px;
+
+}
+.body1 .section1 .word1{
+    margin: 10px;
+    font-size: large;
+    color: darkblue;
+    width: 45%;
+    padding: 5px;
+
+}
+.body1 .section1 .word1 button1 {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+.body1 .section1 .word1 button1:hover{
+    background-color: orange;
+}
+.body1 .section1 .word1 button2 {
+    background-color: rgb(222, 218, 218);
+    color: darkblue;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+.body1 .section1 .word1 button2:hover{
+    background-color: orange;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    width: 100%;
+
+}
+ .section2 h2 {
+    font-size: 28px;
+    color: darkblue;
+    margin-bottom: 10px;
+}
+.section2 p{
+    margin: 10px;
+    font-size: large;       
+    color: darkblue;
+    }
+.section2 button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+
+    }
+ .section2 button:hover{
+    background-color: orange;
+    }
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    gap: 20px;
+
+}
+.section3 .Pic2{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    nav-down: 100px;
+    left: 190px;
+}
+.section3 .word2 {
+    margin: 10px;
+    font-size: large;
+    color: darkblue;
+    width: 40%;
+}
+.section3 .word2 h2 {
+    font-size: 28px;
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.section3 .word2 .part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: large;
+    color: darkblue;
+    width: 35%;
+    padding: 5px;
+
+}
+.section3 .word2 .part .part1 h3 {
+        font-size: 20px;
+        color: darkblue;
+        margin-bottom: 10px;
+}
+.section3 .word2 .part .part2 h3 {
+        font-size: 20px;
+        color: darkblue;
+        margin-bottom: 10px;
+}
+
+.section3 .word2 .part .part1 p{
+     font-size: 12px;
+        color:blue;
+        margin-bottom: 10px;
+}
+.section3 .word2 .part .part2 p{
+     font-size: 12px;
+        color:blue;
+        margin-bottom: 10px;
+}
+.section4{
+    display: flex;
+    width: 100%;
+    height: 5cm;
+    background-color:white;
+    color: darkblue;
+    gap: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 20%;
+    align-items: center;
+    
+}
+.section4 .pic3{
+     width: 30%;
+    height: 20%;
+    position: relative;
+    top: -100px;
+    right: 90px;
+}
+    .section4 .word3{
+         margin: 10px;
+    font-size: large;
+    color: darkblue;
+    width: 40%;
+    }
+    .section4 .word3 h3{
+       font-size: 28px;
+    color: darkblue;
+    margin-bottom: 10px;
+    }
+    .section5 {
+         display: flex;
+    width: 100%;
+    height: 5cm;
+    background-color:white;
+    color: darkblue;
+    gap: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 20%;
+    align-items: center;
+    
+    }
+.section5 .pic4{
+     width: 30%;
+    height: 20%;
+    position: relative;
+    top: -100px;
+    right: 90px;
+}
+.section5 .word4{
+         margin: 10px;
+    font-size: large;
+    color: darkblue;
+    width: 40%;
+    }
+.section5 .word4 h3{
+       font-size: 28px;
+    color: darkblue;
+    margin-bottom: 10px;
+    }
+.section6{
+         display: flex;
+         width: 100%;
+         height: 5cm;
+         background-color:white;
+         color: darkblue;
+         gap: 20px;
+         border-radius: 10px;
+         justify-content: space-between;
+         margin: 0%;
+         padding: 20%;
+         align-items: center;
+    
+ }
+.section6 .address{
+    display: flex;
+    flex-direction: column;
+    font-size:larger;
+    color: darkblue;
+    margin-bottom: 250px;
+    width: 20%;
+    height: 30%;
+   
+}
+.section6 .contact{
+    margin: 0px;
+    font-size:larger;
+    color: darkblue;
+    width: 40%;
+    }
+.section6 .address button{
+    background-color: darkblue;
+    color: white;
+    }
+.section6 .address button:hover{
+        background-color: orange;
+    }
+.footer{
+    background-color: rgb(153, 190, 235);
+    color: rgb(1, 1, 89);
+    text-align:left;    
+    padding: 10px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 220px;
+
+    }
+.footer  h5{
+        font-size: 18px;
+        color: darkblue;
+        margin-bottom: 10px;
+
+    }
+.footer .contact button{
+    background-color: darkblue;
+    color: white;
+    }
+.footer .contact button:hover{
+        background-color: orange;
+    }
+.footer .policy{
+    margin-bottom: 30px;
+    font-size:large;
+    color: darkblue;
+    }
+ .footer .address{
+    margin: 0px;
+    font-size:large;
+    color: darkblue;
+ }
+.footer  p{
+    font-size: 17px;
+    color: darkblue;
+    margin-bottom: 10px;
+    
+}
+.footer .company{
+    margin :0px;        
+    font-size:large;
+    color: rgb(18, 210, 76);   
+    display: block;
+
+    }
+    .footer a{
+        color: darkblue;
+        text-decoration: none;
+        display: block;
+        font-size: 17px;
+    }
